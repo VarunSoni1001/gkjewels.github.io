@@ -1,0 +1,115 @@
+input[type=checkbox]{
+     display: none;
+    }
+    .burger {
+      display: none;
+      font-size: 24px;
+      user-select: none;
+    }
+
+    @media (max-width: 1100px){
+    .menu { 
+    display: none;
+    position: absolute;
+    background-color: #0a7a90;
+    right: 0;
+    text-align: center;
+    padding: 44px 50px;
+    margin-top: 5%;
+    height: 200px;
+    font-size: medium;
+    border: 2px solid #0a7a90;
+    border-radius: 30px;
+    background: wheat;
+    box-shadow: 5px 8px 10px gray;
+   }
+
+   .menu li:hover {
+    display: inline-block;
+    background-color: #0a7a9040;
+   }
+   .menu li + li {
+    margin-top: 12px;
+   }
+
+   input[type=checkbox]:checked ~ .menu{
+    display: block;
+   }
+
+    .logo img{
+      width: 130px;
+      margin: -20px -20px;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .box-main{
+      flex-direction: column-reverse;
+      max-width: 100%;
+      padding-block: 150px;
+    }
+
+    .profileImg{
+      width: 75px;
+    }
+
+    .secondHalf img{
+      width: 40%;
+    }
+  
+    .burger{
+      display: block;
+      padding-right: 8px;
+    }
+    
+    .section{
+      flex-direction: column-reverse;
+    }
+  
+    .text-small{
+      text-align: center;
+      font-size: small;
+    }
+  
+    .text-big{
+      text-align: center;
+      font-size: large;
+      font-weight: bold;
+    }
+  
+    .buttons{
+      text-align: center;
+    }
+  
+    .paras{
+      padding: 0px;
+    }
+
+    .social-btn-logo{
+      width: 30px;
+      align-items: center;
+      justify-content: center;
+      padding: 1px;
+      border: 2px solid wheat;
+      background-color: wheat;
+      border-radius: 20px;
+    }
+    
+    .social-btn-logo:hover{
+      transform: scale(1.1);
+    }
+
+    .form-input{
+      margin: 15px 0;
+      padding: 5px 13px;
+      width: 100%;
+      font-size: 14px;
+      border: 2px solid #0a7a90;
+      border-radius: 6px;
+    }
+
+    .typewriter-text {
+      letter-spacing: -1px;
+    }
+}
+
