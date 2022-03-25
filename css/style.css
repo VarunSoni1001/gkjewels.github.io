@@ -1,20 +1,26 @@
 #myBtn {
     display: none;
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 70px;
+    right: 35px;
     z-index: 99;
     border: none;
     outline: none;
-    background-color: rgba(85, 85, 85, 0.9);
+    background-color: rgba(85, 85, 85, 0.5);
     color: white;
     cursor: pointer;
+    line-height: 40px;
     padding: 15px;
     border-radius: 30px;
     font-size: 18px;
-    border: 1px rgba(128, 128, 128, 0.9);
+    border: 2px solid lightskyblue;
   }
   
   #myBtn:hover {
+    /* content: '/034E'; */
     background-color: rgba(128, 128, 128, 0.9);
+    transition: all 0.4s ease-in;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    line-height: 80px;
   }
