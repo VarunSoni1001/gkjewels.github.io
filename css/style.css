@@ -6,7 +6,7 @@
     z-index: 99;
     border: none;
     outline: none;
-    background-color: rgba(85, 85, 85, 0.5);
+    background-color: rgba(85, 85, 85, 0.8);
     color: white;
     cursor: pointer;
     line-height: 40px;
@@ -18,8 +18,8 @@
   
   #myBtn:hover {
     /* content: '/034E'; */
-    background-color: rgba(128, 128, 128, 0.9);
-    transition: all 0.4s ease-in;
+    background-color: rgba(85, 85, 85, 0.9);
+    transition: all 0.3s ease-in;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     line-height: 80px;
